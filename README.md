@@ -11,11 +11,8 @@
   <img alt="Typescript" src="https://img.shields.io/badge/Main%20lenguage-Typescript-%232F74C0" /> <br />
 </p> 
 <br />
-<br />
 
 ## :camera_flash: Layout
-
-<br/>
 
 <h2 align="center">
 <a href="https://www.figma.com/file/5jmTiTI6mgcspjjr0Sriw5/Da-Horta-pra-Porta?node-id=0%3A1">
@@ -26,8 +23,6 @@ Website</a>
 
 [![Capa Da Horta Pra Porta](.github/assets/Capa.png)](https://www.figma.com/file/5jmTiTI6mgcspjjr0Sriw5/Da-Horta-pra-Porta?node-id=0%3A1)
 
-<br />
-
 ## :rocket: Tecnologias
 
 <br/>
@@ -35,8 +30,6 @@ Website</a>
 - NextJS
 - TypeScript
 - SASS
-
-<br />
 
 ## :bulb: Features
 
@@ -47,8 +40,6 @@ Website</a>
 - Animations
 - PWA
 - Toast
-
-<br />
 
 ## :wrench: Colocando o projeto para rodar
 
