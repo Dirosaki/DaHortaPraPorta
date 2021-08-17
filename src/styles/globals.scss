@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --color-green-500: #04943c;
+  --color-green-800: #00593c;
+  --color-white: #ffffff;
+  --color-input: #f4f4f4;
+  --color-black: #222222;
+  --color-placeholder: #7a7a7a;
+  --color-border: rgba(122, 122, 122, 0.25);
+  --color-outline: rgba(122, 122, 122, 0.75);
+  --color-divisor: #dadde1;
+  --color-error: #ff4545;
+  --box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+}
+
+body {
+  background: var(--color-green-800) url("/background.svg") no-repeat;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+input {
+  border: none;
+}
