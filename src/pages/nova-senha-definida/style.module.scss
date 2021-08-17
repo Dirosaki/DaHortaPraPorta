@@ -1,0 +1,43 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100vh;
+
+  div.confirmation {
+    height: 22.5rem;
+
+    svg {
+      height: 180px;
+      width: 180px;
+    }
+
+    p {
+      margin: 0 3rem;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--color-green-500);
+    }
+
+    button {
+      margin-top: auto;
+    }
+  }
+
+  @media (min-width: "1024px") {
+    flex-direction: row;
+
+    div.confirmation {
+      height: 25.75rem;
+      margin-bottom: 3.25rem;
+
+      p {
+        margin: 0 4rem;
+        max-width: 18.75rem;
+      }
+    }
+  }
+}
