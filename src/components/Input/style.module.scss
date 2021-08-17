@@ -1,10 +1,10 @@
 .inputContain {
   height: 3.125rem;
-  width: 300px;
+  width: calc(100% - 2rem);
+  max-width: 18.75rem;
   position: relative;
   display: flex;
   align-items: center;
-  border: 1px solid transparent;
   border-radius: 25px;
 
   & + .inputContain {
@@ -15,18 +15,14 @@
     margin-top: 1.25rem;
   }
 
-  &:focus-within {
-    border-color: var(--color-outline);
-  }
-
   label {
     position: absolute;
     left: 1.5625rem;
-    color: var(--color-placeholder);
     font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--color-placeholder);
     pointer-events: none;
     transition: 0.2s;
-    font-weight: 500;
 
     &.active {
       transform: translateY(-75%);
@@ -40,24 +36,31 @@
     height: 100%;
     width: 100%;
     background: var(--color-input);
-    border: 2px solid transparent;
+    border: 1px solid transparent;
     border-radius: 25px;
-    transition: border-color 0.2s;
     font-size: 0.875rem;
     color: var(--color-black);
     font-weight: 500;
     box-shadow: var(--box-shadow);
     outline: none;
+
+    &:focus-within {
+      border-color: var(--color-outline);
+    }
   }
 
   div {
+    position: absolute;
+    right: 1.25rem;
     height: 25px;
     width: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    right: 1.25rem;
     cursor: pointer;
+  }
+
+  @media (min-width: "1024px") {
+    max-width: 21.875rem;
   }
 }
