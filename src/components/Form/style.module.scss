@@ -1,0 +1,33 @@
+.form {
+  padding: 1.5rem 0;
+  width: calc(100% - 16px);
+  max-width: 23.5rem;
+  background: var(--color-white);
+  border-radius: 15px 15px 0 0;
+
+  > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  h1 {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+  }
+
+  @media (min-width: "1024px") {
+    height: calc(100% - 1.75rem);
+    width: 60%;
+    max-width: 60%;
+    border-radius: 15px 0 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    > div {
+      width: 100%;
+    }
+  }
+}
