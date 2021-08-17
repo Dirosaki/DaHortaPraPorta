@@ -1,0 +1,33 @@
+.button {
+  height: 3.125rem;
+  width: calc(100% - 2rem);
+  max-width: 18.75rem;
+  border: 1px solid transparent;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: 500;
+  outline: none;
+
+  &.primary {
+    color: var(--color-white);
+    background: var(--color-green-500);
+  }
+
+  &.secondary {
+    color: var(--color-green-500);
+    background: var(--color-white);
+    box-shadow: var(--box-shadow);
+  }
+
+  &:focus-within {
+    border-color: var(--color-black);
+  }
+
+  &:disabled {
+    color: rgba(255, 255, 255, 0.75);
+  }
+
+  @media (min-width: "1024px") {
+    max-width: 21.875rem;
+  }
+}
