@@ -1,0 +1,60 @@
+.container {
+  padding: 2.25rem;
+  height: 100vh;
+  width: 100%;
+  background: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+
+  h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 120%;
+    margin-right: auto;
+    background-color: var(--color-green-800);
+    background-image: linear-gradient(
+      to right bottom,
+      var(--color-green-800),
+      var(--color-green-500)
+    );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    span {
+      font-size: 6rem;
+    }
+  }
+
+  p {
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: var(--color-black);
+    text-align: center;
+  }
+
+  @media (min-width: "1024px") {
+    padding: 4.5rem;
+
+    h1 {
+      margin-right: 12.5%;
+      font-size: 3.5rem;
+
+      span {
+        font-size: 7rem;
+      }
+    }
+
+    svg {
+      height: 13.75rem;
+      width: 13.75rem;
+    }
+
+    p {
+      max-width: 37.5rem;
+    }
+  }
+}
