@@ -1,34 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<br/>
+<br/>
+<h1 align="center">
+  <img src=".github/assets/logo.png" alt="Da Horta Pra Porta">
+  <br/>
+  <br/>
+  NextJS | TypeScript | SASS
+</h1>
 
-## Getting Started
+<p align="center">
+  <img alt="Typescript" src="https://img.shields.io/badge/Main%20lenguage-Typescript-%232F74C0" /> <br />
+</p> 
+<br />
+<br />
 
-First, run the development server:
+## :camera_flash: Layout
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+<br/>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<h2 align="center">
+<a href="https://www.figma.com/file/5jmTiTI6mgcspjjr0Sriw5/Da-Horta-pra-Porta?node-id=0%3A1">
+Layout</a> | <a href="https://da-horta-pra-porta.vercel.app/">
+Website</a>
+</h2>
+<br />
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+[![Capa Da Horta Pra Porta](.github/assets/Capa.png)](https://www.figma.com/file/5jmTiTI6mgcspjjr0Sriw5/Da-Horta-pra-Porta?node-id=0%3A1)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+<br />
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## :rocket: Tecnologias
 
-## Learn More
+<br/>
 
-To learn more about Next.js, take a look at the following resources:
+- NextJS
+- TypeScript
+- SASS
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<br />
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## :bulb: Features
 
-## Deploy on Vercel
+<br/>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Firebase
+- Private Routers
+- Animations
+- PWA
+- Toast
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<br />
+
+## :wrench: Colocando o projeto para rodar
+
+<br />
+
+Para colocar o projeto para rodar, basta seguir o passo a passo fornecido logo abaixo:
+
+- 1º: Tenha o NODE instalado na sua máquina;
+- 2º: Faça o download deste projeto;
+- 3º: Com o terminal/prompt abra o diretório deste projeto e execute o comando `npm run` ou `yarn`;
+- 4º: Após finalizado o comando do `passo 3` e com tudo finalizado, agora execute o comando `npm run dev` ou `yarn dev`;
+- 5º: Pronto tudo configurado, agora é só acessar [http://localhost:3000](http://localhost:3000);
