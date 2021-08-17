@@ -20,7 +20,15 @@
 }
 
 body {
-  background: var(--color-green-800) url("/background.svg") no-repeat;
+  background: var(--color-green-800) url("/background.svg") no-repeat fixed
+    center top;
+  background-size: contain;
+
+  @media (min-width: "1024px") {
+    background: var(--color-green-800) url("/backgroundDesktop.svg") repeat-x
+      fixed top left;
+    // background-size: 35%;
+  }
 }
 
 h1,
@@ -32,11 +40,29 @@ h6 {
   font-weight: 700;
 }
 
+input {
+  border: none;
+
+  &::selection {
+    background: var(--color-green-500);
+    color: var(--color-white);
+  }
+}
+
 button {
   cursor: pointer;
   border: none;
 }
 
-input {
-  border: none;
+a.link {
+  margin-top: 1rem;
+  color: var(--color-placeholder);
+  font-size: 0.875rem;
+}
+
+div.divisor {
+  margin: 1.25rem 0;
+  height: 1px;
+  width: 12.5rem;
+  background: var(--color-divisor);
 }
